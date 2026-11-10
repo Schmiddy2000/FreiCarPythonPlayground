@@ -1,0 +1,4 @@
+numpy
+matplotlib
+mcap
+mcap-ros2-support
