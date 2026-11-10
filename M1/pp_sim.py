@@ -320,7 +320,7 @@ def animate(path, history):
 
 if __name__ == "__main__":
     import matplotlib.pyplot as plt
-    from data import path_1
+    from data.paths import path_1
 
     path = np.asarray(path_1, dtype=float)
     history = simulate(path)
