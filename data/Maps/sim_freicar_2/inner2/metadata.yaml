@@ -1,0 +1,36 @@
+rosbag2_bagfile_information:
+  compression_format: ''
+  compression_mode: ''
+  custom_data: null
+  duration:
+    nanoseconds: 24740000000
+  files:
+  - duration:
+      nanoseconds: 24740000000
+    message_count: 12372
+    path: inner2.mcap
+    starting_time:
+      nanoseconds_since_epoch: 1794605888428400256
+  message_count: 12372
+  relative_file_paths:
+  - inner2.mcap
+  ros_distro: freicar_map_builder
+  starting_time:
+    nanoseconds_since_epoch: 1794605888428400256
+  storage_identifier: mcap
+  topics_with_message_count:
+  - message_count: 6186
+    topic_metadata:
+      name: /mapping_tool/odometry
+      offered_qos_profiles: []
+      serialization_format: cdr
+      type: nav_msgs/msg/Odometry
+      type_description_hash: RIHS01_3cc97dc7fb7502f8714462c526d369e35b603cfc34d946e3f2eda2766dfec6e0
+  - message_count: 6186
+    topic_metadata:
+      name: /tf
+      offered_qos_profiles: []
+      serialization_format: cdr
+      type: tf2_msgs/msg/TFMessage
+      type_description_hash: RIHS01_e369d0f05a23ae52508854b66f6aa0437f3449d652e8cbf22d5abe85d020f087
+  version: 9
